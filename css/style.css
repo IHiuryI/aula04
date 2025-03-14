@@ -1,0 +1,19 @@
+h1 { /* seletor */
+color: maroon;
+background-color: gold;
+font-size: 72 px;
+border: 4px solid maroon;
+
+}
+
+h2 { color: cadetblue;
+
+}
+
+p { color: sienna;
+
+}
+
+a { color: brown;
+
+}
