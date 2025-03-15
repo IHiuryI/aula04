@@ -1,19 +1,69 @@
-h1 { /* seletor */
-color: maroon;
-background-color: gold;
-font-size: 72 px;
-border: 4px solid maroon;
+@font-face {
+  font-family: varsity ;
+  src: url(../fonte/varsity_regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  background-color: beige;
+}
+h1 {
+  /* seletor */
+  font-family: varsity;
+  color: white;
+  background-color: transparent;
+  font-size: 72 px;
+  border: 4px solid whie;
+  text-align: center;
+}
+
+#imgHeader {
+  border: 1px solid red;
+  height: 200px;
+  width: 100%;
+  background: url(../imagens/andromeda.jpg) no-repeat center center/cover;
+  line-height: 150px;
 
 }
 
-h2 { color: cadetblue;
-
+h2 {
+  color: cadetblue;
 }
 
-p { color: sienna;
+p {
+  color: sienna;
 
+  width: auto; /*largura */
+  height: auto; /*Altura */
 }
 
-a { color: brown;
+#paragraphLink {
+  text-align: center;
+}
 
+span {
+  font-weight: bolder;
+}
+
+#test {
+  text-align: center;
+  margin: auto;
+}
+
+a {
+  color: white;
+  background-color: dodgerblue;
+  width: 250px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+
+  text-decoration: none; /* remove linha que fica abaixo do link */
+}
+
+a:hover {
+  color: dodgerblue;
+  background-color: white;
+  outline: 2px solid dodgerblue;
 }
